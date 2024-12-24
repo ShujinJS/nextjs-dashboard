@@ -5,7 +5,7 @@ import styles from "@/app/ui/home.module.css";
 import { lusitana } from "./ui/fonts";
 import Image from "next/image";
 
-export default function Page() {
+const Page = () => {
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className={styles.shape} />
@@ -50,4 +50,6 @@ export default function Page() {
       </div>
     </main>
   );
-}
+};
+
+export default Page;
